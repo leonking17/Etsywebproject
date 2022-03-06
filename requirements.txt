@@ -19,8 +19,7 @@ Django==4.0.3
 entrypoints==0.3
 Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
-# Editable install with no version control (Flask-WTF==0.15.1)
--e c:\users\phara\appdata\local\programs\python\python39\lib\site-packages
+Flask-WTF==0.15.1
 fonttools==4.29.1
 greenlet==1.1.1
 gunicorn==20.1.0
