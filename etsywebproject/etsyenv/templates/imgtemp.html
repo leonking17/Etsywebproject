@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Will this sell in my Etsy shop?</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+    </head>
+    <body>
+        <div>
+            <h1>Will this sell in my Etsy shop?</h1>
+        </div>
+        <br>
+        <a href="/find_color"><input type="button" value="Generate" id="button"></a>
+        <br>
+        {% for message in get_flashed_messages()%}
+        <p>{{message}}</p>
+        <br>
+        {% endfor %}
+        <img src="{{ color_img1 }}" alt="first image">
+        <img src="{{ color_img2 }}" alt="second image">
+        <img src="{{ color_img3 }}" alt="third image">
+        <br>
+        <p id="colorsp">{{ final_color_sentence }}</p>
+    </body>
+</html>
