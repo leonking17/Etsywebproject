@@ -10,6 +10,15 @@ p{
     line-height: 32px; 
     margin: 0 0 24px;
 }
+#block-size {
+    width: auto;
+    margin: auto;
+    block-size: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 h1{
     color: #ffffff; 
     font-family: 'Raleway',sans-serif; 

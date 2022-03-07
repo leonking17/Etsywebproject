@@ -6,15 +6,17 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
     </head>
     <body>
-        <div>
-            <h1>What to sell in your Etsy shop?</h1>
+        <div id="block-size">
+            <div>
+                <h1>What to sell in your Etsy shop?</h1>
+            </div>
+            <br>
+            {% for message in get_flashed_messages()%}
+            <p>{{message}}</p>
+            <br>
+            {% endfor %}
+            <br>
+            <a href="/find_color"><input type="button" value="Generate" id="button"></a>
         </div>
-        <br>
-        {% for message in get_flashed_messages()%}
-        <p>{{message}}</p>
-        <br>
-        {% endfor %}
-        <br>
-        <a href="/find_color"><input type="button" value="Generate" id="button"></a>
     </body>
 </html>

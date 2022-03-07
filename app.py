@@ -49,10 +49,8 @@ def find_color():
 
     correct = printify_product
 
-    final_sentence1 = 'Try this!'
     final_sentence2 = design_sentence
 
-    flash(final_sentence1)
     flash(final_sentence2)
 
     #colors section
