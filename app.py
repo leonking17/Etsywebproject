@@ -34,7 +34,7 @@ def find_color():
     correct = design_theme
 
     #collection of products to cycle through -- all products can be dropshipped
-    products = ['t-shirt', 'sweatshirt', 'hoodie', 'long sleeve', 'tank top', 'sportswear piece', 'bottom', 'shoes', 'kids clothing', 'skirt/dress', 'swimwear piece', 'baby clothing', 
+    products = ['t-shirt', 'sweatshirt', 'hoodie', 'long sleeve', 'tank top', 'sportswear piece', 'bottom', 'shoes', 'kids clothing piece', 'skirt/dress', 'swimwear piece', 'baby clothing', 
     'face mask', 'phone case', 'bag', 'pair of socks', 'pair of underwear', 'hat','mouse pad', 'mug', 'bottle/tumbler', 'canvas', 'poster', 'postcard', 'ornament', 'journal/notebook']
     printify_products = products
     printify_product = random.choice(printify_products)
