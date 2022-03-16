@@ -26,7 +26,7 @@ def find_color():
     color3 = '#%02X%02X%02X' % (r3(),r3(),r3())
 
     #set of random themes to cycle through
-    themes = ['minimal', 'nature themed', 'modern', 'pizza themed','industrial','yassify','cheugy','casual', 'theatrical', 'sleek', 'sheek', 'magnificent']
+    themes = ['minimal', 'nature themed', 'modern', 'pizza themed','industrial','yassify','cheugy','casual', 'theatrical', 'sleek', 'chic', 'magnificent']
 
     design_themes = themes
     design_theme = random.choice(design_themes)
