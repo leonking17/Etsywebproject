@@ -66,7 +66,6 @@ def find_color():
     color_hex1 = json_objects['name']['closest_named_hex']
     color_img1 = json_objects['image']['bare']
     color_sentence1 = color_name1 +' '+ color_hex1
-
     #color2 
     params = {'hex' : color2}
     response = requests.get('https://www.thecolorapi.com/id?', params=params)
